@@ -7,9 +7,10 @@
   margin-left: auto;
   margin-right: auto;
   padding: 24px;
-  border-top-left-radius: 32px;
-  border-top-right-radius: 32px;
-  background-color: cyan;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  background-color: rgb(15, 103, 103);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
 }
 
 .name {
@@ -23,7 +24,7 @@
 .location {
   font-size: 24px;
   font-weight: 400;
-  color: grey;
+  color: rgb(236, 167, 167);
   margin-top: 24px;
   margin-bottom: 0;
 }
@@ -35,6 +36,7 @@
 
 .stats {
   display: flex;
+
   justify-content: space-around;
   align-items: center;
   list-style: none;
@@ -43,7 +45,8 @@
   padding: 24px 0;
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
-  background-color: yellow;
+  background-color: rgb(227, 227, 3);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
 }
 
 .stats_item {
@@ -53,13 +56,15 @@
 }
 
 .label {
-  font-size: 20px;
+  padding-right: 8px;
+  font-size: 16px;
   font-weight: 400;
-  color: grey;
+  color: rgb(166, 33, 33);
 }
 
 .quantity {
+  padding-right: 8px;
   margin-top: 16px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
