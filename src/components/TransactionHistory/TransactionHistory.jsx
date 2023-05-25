@@ -20,9 +20,8 @@ export const TransactionHistory = ({ items }) => {
               <td>{amount}</td>
               <td>{currency}</td>
             </tr>
-          );
+          )
         })}
-        ;
       </tbody>
     </table>
   );
@@ -36,5 +35,5 @@ TransactionHistory.propTypes = {
       amount: PropTypes.string.isRequired,
       currency: PropTypes.string.isRequired,
     })
-  ),
+  )
 };
